@@ -28,7 +28,7 @@ namespace Lesson6
         {
 
             //use EF to connect to the server
-            using (DefaultConnection db = new DefaultConnection())
+            using (ContosoConnection db = new ContosoConnection())
             {
                 //use the Student model to create a new student object and 
                 //save a new record

@@ -34,7 +34,7 @@ namespace Lesson6
         protected void GetCourses()
         {
             //connect to the EF
-            using (DefaultConnection db = new DefaultConnection())
+            using (ContosoConnection db = new ContosoConnection())
             {
                 //query the students table using EF and LINQ
                 var Courses = (from allCourses in db.Courses

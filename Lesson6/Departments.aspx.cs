@@ -25,7 +25,7 @@ namespace Lesson6
         protected void GetDepartments()
         {
             //connect to the EF
-            using (DefaultConnection db = new DefaultConnection())
+            using (ContosoConnection db = new ContosoConnection())
             {
                 //query the students table using EF and LINQ
                 var Departments = (from allDepartments in db.Departments

@@ -27,7 +27,7 @@ namespace Lesson6
         protected void SaveButton_Click(object sender, EventArgs e)
         {
             //use EF to connect to the server
-            using (DefaultConnection db = new DefaultConnection())
+            using (ContosoConnection db = new ContosoConnection())
             {
                 //use the Course model to create a new course object and 
                 //save a new record
