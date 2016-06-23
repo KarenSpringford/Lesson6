@@ -62,8 +62,10 @@ namespace Lesson6
             }
             else
             {
-                //display error in the AlertFlash div
-
+                //display error in the AlertFlash div (see named div id in Register.aspx)
+                //the text label is left generic to allow an insert
+                StatusLabel.Text = result.Errors.FirstOrDefault();
+                AlertFlash.Visible = true;
             }
         }
     }

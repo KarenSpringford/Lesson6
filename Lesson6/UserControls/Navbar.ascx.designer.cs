@@ -7,13 +7,11 @@
 // </auto-generated>
 //------------------------------------------------------------------------------
 
-namespace Lesson6
-{
-
-
-    public partial class Navbar
-    {
-
+namespace Lesson6 {
+    
+    
+    public partial class Navbar {
+        
         /// <summary>
         /// home control.
         /// </summary>
@@ -22,7 +20,34 @@ namespace Lesson6
         /// To modify move field declaration from designer file to code-behind file.
         /// </remarks>
         protected global::System.Web.UI.HtmlControls.HtmlGenericControl home;
-
+        
+        /// <summary>
+        /// login control.
+        /// </summary>
+        /// <remarks>
+        /// Auto-generated field.
+        /// To modify move field declaration from designer file to code-behind file.
+        /// </remarks>
+        protected global::System.Web.UI.HtmlControls.HtmlGenericControl login;
+        
+        /// <summary>
+        /// register control.
+        /// </summary>
+        /// <remarks>
+        /// Auto-generated field.
+        /// To modify move field declaration from designer file to code-behind file.
+        /// </remarks>
+        protected global::System.Web.UI.HtmlControls.HtmlGenericControl register;
+        
+        /// <summary>
+        /// mainmenu control.
+        /// </summary>
+        /// <remarks>
+        /// Auto-generated field.
+        /// To modify move field declaration from designer file to code-behind file.
+        /// </remarks>
+        protected global::System.Web.UI.HtmlControls.HtmlGenericControl mainmenu;
+        
         /// <summary>
         /// students control.
         /// </summary>
@@ -31,7 +56,7 @@ namespace Lesson6
         /// To modify move field declaration from designer file to code-behind file.
         /// </remarks>
         protected global::System.Web.UI.HtmlControls.HtmlGenericControl students;
-
+        
         /// <summary>
         /// courses control.
         /// </summary>
@@ -40,7 +65,7 @@ namespace Lesson6
         /// To modify move field declaration from designer file to code-behind file.
         /// </remarks>
         protected global::System.Web.UI.HtmlControls.HtmlGenericControl courses;
-
+        
         /// <summary>
         /// departments control.
         /// </summary>
@@ -49,7 +74,16 @@ namespace Lesson6
         /// To modify move field declaration from designer file to code-behind file.
         /// </remarks>
         protected global::System.Web.UI.HtmlControls.HtmlGenericControl departments;
-
+        
+        /// <summary>
+        /// logout control.
+        /// </summary>
+        /// <remarks>
+        /// Auto-generated field.
+        /// To modify move field declaration from designer file to code-behind file.
+        /// </remarks>
+        protected global::System.Web.UI.HtmlControls.HtmlGenericControl logout;
+        
         /// <summary>
         /// contact control.
         /// </summary>
