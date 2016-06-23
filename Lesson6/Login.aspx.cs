@@ -42,7 +42,7 @@ namespace Lesson6
                 authenticationManager.SignIn(new AuthenticationProperties() { IsPersistent = false }, userIdentity);
 
                 //redirect to our Main Menu
-                Response.Redirect("~/MainMenu.aspx");
+                Response.Redirect("~/Contoso/MainMenu.aspx");
             }
             else
             {

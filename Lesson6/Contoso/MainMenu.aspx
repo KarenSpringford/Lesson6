@@ -8,22 +8,22 @@
                 <div class="well">
                     <h3><i class="fa fa-leanpub fa-lg"></i> Students</h3>
                     <div class="list-group">
-                        <a class="list-group-item" href="Students.aspx"><i class="fa fa-th-list"></i> Student List</a>
-                        <a class="list-group-item" href="StudentDetails.aspx"><i class="fa fa-plus-circle"></i> Add Student</a>
+                        <a class="list-group-item" href="/Contoso/Students.aspx"><i class="fa fa-th-list"></i> Student List</a>
+                        <a class="list-group-item" href="/Contoso/StudentDetails.aspx"><i class="fa fa-plus-circle"></i> Add Student</a>
                     </div>
                 </div>
                 <div class="well">
                     <h3><i class="fa fa-book fa-lg"></i> Courses</h3>
                     <div class="list-group">
-                        <a class="list-group-item" href="Courses.aspx"><i class="fa fa-th-list"></i> Course List</a>
-                        <a class="list-group-item" href="CourseDetails.aspx"><i class="fa fa-plus-circle"></i> Add Courses</a>
+                        <a class="list-group-item" href="/Contoso/Courses.aspx"><i class="fa fa-th-list"></i> Course List</a>
+                        <a class="list-group-item" href="/Contoso/CourseDetails.aspx"><i class="fa fa-plus-circle"></i> Add Courses</a>
                     </div>
                 </div>
                 <div class="well">
                     <h3><i class="fa fa-puzzle-piece fa-lg"></i> Departments</h3>
                     <div class="list-group">
-                        <a class="list-group-item" href="Departments.aspx"><i class="fa fa-th-list"></i> Department List</a>
-                        <a class="list-group-item" href="DepartmentDetails.aspx"><i class="fa fa-plus-circle"></i> Add Department</a>
+                        <a class="list-group-item" href="/Contoso/Departments.aspx"><i class="fa fa-th-list"></i> Department List</a>
+                        <a class="list-group-item" href="/Contoso/DepartmentDetails.aspx"><i class="fa fa-plus-circle"></i> Add Department</a>
                     </div>
                 </div>
             </div>

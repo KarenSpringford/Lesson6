@@ -4,7 +4,7 @@
         <div class="row">
             <div class="col-md-offset-2 col-md-8">
                 <h1>Course List</h1>
-                <a href="CourseDetails.aspx" class="btn btn-success btn-sm"><i class="fa fa-plus fa-lg"></i> Add Course</a>
+                <a href="/Contoso/CourseDetails.aspx" class="btn btn-success btn-sm"><i class="fa fa-plus fa-lg"></i> Add Course</a>
                 <br />
                 <asp:GridView runat="server" ID="CoursesGridView" AutoGenerateColumns="false" CSSClass="table table-bordered table-striped table-hover">
                     <Columns>

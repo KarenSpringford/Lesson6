@@ -46,7 +46,7 @@ namespace Lesson6
                 db.SaveChanges();
 
                 //redirect back to the updated Students page
-                Response.Redirect("~/Courses.aspx");
+                Response.Redirect("~/Contoso/Courses.aspx");
 
 
             }

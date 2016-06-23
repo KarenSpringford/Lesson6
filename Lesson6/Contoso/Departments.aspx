@@ -6,7 +6,7 @@
             <div class="col-md-offset-2 col-md-8">
                 <h1>Departments</h1>
                 <br />
-                <a href="DepartmentDetails.aspx" class="btn btn-success btn-sm"><i class="fa fa-plus fa-lg"></i> Add Department</a>
+                <a href="/Contoso/DepartmentDetails.aspx" class="btn btn-success btn-sm"><i class="fa fa-plus fa-lg"></i> Add Department</a>
                 <br />
                 <asp:Gridview runat="server" AutoGenerateColumns="false" CSSClass="table table-bordered table-striped table-hover" 
                     ID="DepartmentsGridView">

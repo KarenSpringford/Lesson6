@@ -100,6 +100,10 @@
       <HintPath>..\packages\Owin.1.0\lib\net40\Owin.dll</HintPath>
       <Private>True</Private>
     </Reference>
+    <Reference Include="System.Linq.Dynamic, Version=1.0.5840.25917, Culture=neutral, processorArchitecture=MSIL">
+      <HintPath>..\packages\System.Linq.Dynamic.1.0.6\lib\net40\System.Linq.Dynamic.dll</HintPath>
+      <Private>True</Private>
+    </Reference>
     <Reference Include="System.Runtime.Serialization" />
     <Reference Include="System.Security" />
     <Reference Include="System.Web.DynamicData" />
@@ -124,14 +128,14 @@
     <Content Include="Content\bootstrap-theme.min.css" />
     <Content Include="Content\bootstrap.css" />
     <Content Include="Content\bootstrap.min.css" />
-    <Content Include="CourseDetails.aspx" />
-    <Content Include="Courses.aspx" />
-    <Content Include="DepartmentDetails.aspx" />
-    <Content Include="Departments.aspx" />
+    <Content Include="Contoso\CourseDetails.aspx" />
+    <Content Include="Contoso\Courses.aspx" />
+    <Content Include="Contoso\DepartmentDetails.aspx" />
+    <Content Include="Contoso\Departments.aspx" />
     <Content Include="fonts\glyphicons-halflings-regular.svg" />
     <Content Include="Login.aspx" />
     <Content Include="Logout.aspx" />
-    <Content Include="MainMenu.aspx" />
+    <Content Include="Contoso\MainMenu.aspx" />
     <Content Include="Models\ContosoModel.Context.tt">
       <Generator>TextTemplatingFileGenerator</Generator>
       <DependentUpon>ContosoModel.edmx</DependentUpon>
@@ -180,8 +184,8 @@
     <Content Include="Content\font-awesome.min.css" />
     <Content Include="Default.aspx" />
     <Content Include="fonts\fontawesome-webfont.svg" />
-    <Content Include="StudentDetails.aspx" />
-    <Content Include="Students.aspx" />
+    <Content Include="Contoso\StudentDetails.aspx" />
+    <Content Include="Contoso\Students.aspx" />
     <Content Include="UserControls\Jumbotron.ascx" />
     <Content Include="UserControls\Navbar.ascx" />
     <Content Include="Scripts\app.js" />
@@ -203,18 +207,18 @@
     <Compile Include="Contact.aspx.designer.cs">
       <DependentUpon>Contact.aspx</DependentUpon>
     </Compile>
-    <Compile Include="CourseDetails.aspx.cs">
+    <Compile Include="Contoso\CourseDetails.aspx.cs">
       <DependentUpon>CourseDetails.aspx</DependentUpon>
       <SubType>ASPXCodeBehind</SubType>
     </Compile>
-    <Compile Include="CourseDetails.aspx.designer.cs">
+    <Compile Include="Contoso\CourseDetails.aspx.designer.cs">
       <DependentUpon>CourseDetails.aspx</DependentUpon>
     </Compile>
-    <Compile Include="Courses.aspx.cs">
+    <Compile Include="Contoso\Courses.aspx.cs">
       <DependentUpon>Courses.aspx</DependentUpon>
       <SubType>ASPXCodeBehind</SubType>
     </Compile>
-    <Compile Include="Courses.aspx.designer.cs">
+    <Compile Include="Contoso\Courses.aspx.designer.cs">
       <DependentUpon>Courses.aspx</DependentUpon>
     </Compile>
     <Compile Include="Default.aspx.cs">
@@ -224,18 +228,18 @@
     <Compile Include="Default.aspx.designer.cs">
       <DependentUpon>Default.aspx</DependentUpon>
     </Compile>
-    <Compile Include="DepartmentDetails.aspx.cs">
+    <Compile Include="Contoso\DepartmentDetails.aspx.cs">
       <DependentUpon>DepartmentDetails.aspx</DependentUpon>
       <SubType>ASPXCodeBehind</SubType>
     </Compile>
-    <Compile Include="DepartmentDetails.aspx.designer.cs">
+    <Compile Include="Contoso\DepartmentDetails.aspx.designer.cs">
       <DependentUpon>DepartmentDetails.aspx</DependentUpon>
     </Compile>
-    <Compile Include="Departments.aspx.cs">
+    <Compile Include="Contoso\Departments.aspx.cs">
       <DependentUpon>Departments.aspx</DependentUpon>
       <SubType>ASPXCodeBehind</SubType>
     </Compile>
-    <Compile Include="Departments.aspx.designer.cs">
+    <Compile Include="Contoso\Departments.aspx.designer.cs">
       <DependentUpon>Departments.aspx</DependentUpon>
     </Compile>
     <Compile Include="Login.aspx.cs">
@@ -252,11 +256,11 @@
     <Compile Include="Logout.aspx.designer.cs">
       <DependentUpon>Logout.aspx</DependentUpon>
     </Compile>
-    <Compile Include="MainMenu.aspx.cs">
+    <Compile Include="Contoso\MainMenu.aspx.cs">
       <DependentUpon>MainMenu.aspx</DependentUpon>
       <SubType>ASPXCodeBehind</SubType>
     </Compile>
-    <Compile Include="MainMenu.aspx.designer.cs">
+    <Compile Include="Contoso\MainMenu.aspx.designer.cs">
       <DependentUpon>MainMenu.aspx</DependentUpon>
     </Compile>
     <Compile Include="Models\ContosoModel.Context.cs">
@@ -294,18 +298,18 @@
       <DependentUpon>Register.aspx</DependentUpon>
     </Compile>
     <Compile Include="Startup.cs" />
-    <Compile Include="StudentDetails.aspx.cs">
+    <Compile Include="Contoso\StudentDetails.aspx.cs">
       <DependentUpon>StudentDetails.aspx</DependentUpon>
       <SubType>ASPXCodeBehind</SubType>
     </Compile>
-    <Compile Include="StudentDetails.aspx.designer.cs">
+    <Compile Include="Contoso\StudentDetails.aspx.designer.cs">
       <DependentUpon>StudentDetails.aspx</DependentUpon>
     </Compile>
-    <Compile Include="Students.aspx.cs">
+    <Compile Include="Contoso\Students.aspx.cs">
       <DependentUpon>Students.aspx</DependentUpon>
       <SubType>ASPXCodeBehind</SubType>
     </Compile>
-    <Compile Include="Students.aspx.designer.cs">
+    <Compile Include="Contoso\Students.aspx.designer.cs">
       <DependentUpon>Students.aspx</DependentUpon>
     </Compile>
     <Compile Include="UserControls\Jumbotron.ascx.cs">

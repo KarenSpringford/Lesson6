@@ -44,7 +44,7 @@ namespace Lesson6
                 db.SaveChanges();
 
                 //redirect back to the updated Students page
-                Response.Redirect("~/Departments.aspx");
+                Response.Redirect("~/Contoso/Departments.aspx");
             }
         }
     }

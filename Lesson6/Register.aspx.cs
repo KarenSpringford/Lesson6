@@ -58,7 +58,7 @@ namespace Lesson6
                 authenticationManager.SignIn(new AuthenticationProperties() { }, userIdentity);
 
                 //redirect to the main menu page
-                Response.Redirect("~/MainMenu.aspx");
+                Response.Redirect("~/Contoso/MainMenu.aspx");
             }
             else
             {
