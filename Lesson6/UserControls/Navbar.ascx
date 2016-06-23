@@ -26,7 +26,7 @@
                 <li id="courses" runat="server"><a href="/Contoso/Courses.aspx"><i class="fa fa-book fa-lg" aria-hidden="true"></i>  Courses</a></li>
                 <li id="departments" runat="server"><a href="/Contoso/Departments.aspx"><i class="fa fa-puzzle-piece fa-lg" aria-hidden="true"></i>  Departments</a></li>
                 <!--- logout -->
-                <li id="logout" runat="server"><a href="Logout.aspx"><i class="fa fa-sign-out fa-lg" aria-hidden="true"></i>  Logout</a></li>
+                <li id="logout" runat="server"><a href="/Logout.aspx"><i class="fa fa-sign-out fa-lg" aria-hidden="true"></i>  Logout</a></li>
 
                 <li id="contact" runat="server"><a href="/Contoso/Contact.aspx"><i class="fa fa-phone fa-lg" aria-hidden="true"></i>  Contact</a></li>
             </ul>
